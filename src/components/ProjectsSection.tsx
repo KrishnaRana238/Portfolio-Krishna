@@ -1,13 +1,28 @@
 import React, { useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
+import Image1 from './Images/freelancia.jpg';
+// Import other images as needed
+ import Image2 from './Images/ecommerse.jpg';
+import Image3 from './Images/weather.jpg';
+import Image4 from './Images/car.jpg';
 
-const projects = [
+interface Project {
+  id: number;
+  title: string;
+  description: string;
+  tags: string[];
+  image: { src: string; alt: string } | string; // Can be image object or gradient string
+  githubUrl: string;
+  liveUrl: string;
+}
+
+const projects: Project[] = [
   {
     id: 1,
     title: "Freelancia",
     description: "A freelancing website with direct login authentication and seamless API integration with MongoDB database. Tested using Postman for reliability.",
     tags: ["React", "Tailwind CSS", "MongoDB", "Postman"],
-    image: "bg-gradient-to-br from-cyber-blue/30 to-cyber-purple/30",
+    image: { src: Image1, alt: "Freelancia Platform" },
     githubUrl: "#",
     liveUrl: "#"
   },
@@ -16,7 +31,7 @@ const projects = [
     title: "Mestore",
     description: "E-commerce website offering various products with intuitive user interface and responsive design for seamless shopping experience.",
     tags: ["HTML", "CSS", "JavaScript"],
-    image: "bg-gradient-to-br from-cyber-purple/30 to-cyber-pink/30",
+    image: { src: Image2, alt: "Mestore Interface" }, // Replace with actual image
     githubUrl: "#",
     liveUrl: "#"
   },
@@ -25,7 +40,7 @@ const projects = [
     title: "Weather Prediction Model Comparison",
     description: "Developed weather prediction model using KNN, SVM, Decision Tree, Random Forest, and Naive Bayes. \nConducting data preprocessing and split the dataset into training (70%) and testing (30%) sets. \nImplement and evaluate model using matrices such as accuracy, precision, recall F1-score, and ROC-AUC. ",
     tags: ["R", "Machine Learning"],
-    image: "bg-gradient-to-br from-cyber-pink/30 to-cyber-blue/30",
+    image: { src: Image3, alt: "Weather Model Dashboard" }, // Replace with actual image
     githubUrl: "#",
     liveUrl: "#"
   },
@@ -34,13 +49,13 @@ const projects = [
     title: "Car and Bike Accident Report Dashboard",
     description: "Developed an interactive dashboard utilizing R libraries such as flex dashboard, knitr, DT, pivot table and ggplot2 for dynamic data visualization of car and bike accidents across the USA. \nThe dashboard allow user to explore trends through graphical representations and offers interactive tables for comprehensive data filtering. \nIt provides actionable insights and strategies based on trends to help reduce accident rates.",
     tags: ["R", "Machine Learning Libraries"],
-    image: "bg-gradient-to-br from-cyber-blue/30 to-cyber-pink/30",
+    image: { src: Image4, alt: "Accident Dashboard" }, // Replace with actual image
     githubUrl: "#",
     liveUrl: "#"
   }
 ];
 
-const ProjectCard = ({ project }: { project: typeof projects[0] }) => {
+const ProjectCard = ({ project }: { project: Project }) => {
   const [isHovered, setIsHovered] = useState(false);
   
   return (
@@ -49,7 +64,18 @@ const ProjectCard = ({ project }: { project: typeof projects[0] }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className={`h-48 ${project.image} relative overflow-hidden`}>
+      <div className="h-48 relative overflow-hidden">
+        {/* Conditionally render image or gradient background */}
+        {typeof project.image === 'object' ? (
+          <img 
+            src={project.image.src} 
+            alt={project.image.alt} 
+            className="w-full h-full object-cover"
+          />
+        ) : (
+          <div className={`${project.image} absolute inset-0`} />
+        )}
+        
         <div className="absolute inset-0 flex items-center justify-center">
           <span className="text-3xl font-bold text-white/30">{project.title.split(" ")[0]}</span>
         </div>

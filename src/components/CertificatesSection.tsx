@@ -21,7 +21,7 @@ const certificates: Certificate[] = [
     name: "Data Structure And Algorithms",
     issuer: "Udemy",
     date: "August 2024",
-    skills: ["CPP", "Data Structure", "Algorithms"],
+    skills: ["CPP", "Data Structure", "Algorithms","Object Oriented Programming"],
     credentialLink: "https://www.udemy.com/certificate/UC-ffca5e34-76f3-4c03-9a6e-680704af27c2/",
     description: "Comprehensive training on data structure and algorithms using C/C++"
   },
