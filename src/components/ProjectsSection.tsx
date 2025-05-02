@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
-import Image1 from './Images/freelancia.jpg';
+import Image1 from './images/freelancia.jpg';
 // Import other images as needed
- import Image2 from './Images/ecommerse.jpg';
-import Image3 from './Images/weather.jpg';
-import Image4 from './Images/car.jpg';
+ import Image2 from './images/ecommerse.jpg';
+import Image3 from './images/weather.jpg';
+import Image4 from './images/car.jpg';
 
 interface Project {
   id: number;
