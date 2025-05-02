@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { User, Code, Mail } from 'lucide-react';
-import KrishnaImage from './Images/krishna.jpeg';
+import KrishnaImage from './images/krishna.jpeg';
 const AboutSection = () => {
   return (
     <section id="about" className="bg-cyber-dark py-20">
