@@ -15,6 +15,13 @@ const experienceData = [
 const trainingData = [
   {
     id: 1,
+    role: "Python Full Stack Development",
+    company: "ByteXl",
+    period: "June 2025 - July 2025",
+    description: "Developed a sales report for Diwali saree sales, the project involves data cleaning processing, statistical analysis derives insights into sales performance on Jupyter Notebook. Tech: Python, Data Analytics tools"
+  },
+  {
+    id: 2,
     role: "Data Science Intern",
     company: "Coding Block",
     period: "June 2024 - August 2024",

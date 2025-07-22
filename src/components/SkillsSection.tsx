@@ -12,17 +12,22 @@ const skillCategories = [
   {
     name: "Languages",
     icon: <Languages className="text-cyber-blue" size={28} />,
-    skills: ["C", "C++", "Python", "JavaScript", "R"]
+    skills: ["C", "C++", "Python", "JavaScript", "R", "SQL","HTML and CSS"]
   },
   {
     name: "Frameworks",
     icon: <LayoutGrid className="text-cyber-purple" size={28} />,
-    skills: ["HTML and CSS", "Tableau"]
+    skills: [ "Tableau", "Frameworks", "React", "Node.js", "Django", "Flask"]
+  },
+  {
+    name: "Libraries",
+    icon: <Languages className="text-cyber-blue" size={28} />,
+    skills: ["NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "TensorFlow", "Keras", "PyTorch"]
   },
   {
     name: "Tools/Platforms",
     icon: <Wrench className="text-cyber-pink" size={28} />,
-    skills: ["MySQL", "Excel", "Adobe Photoshop", "Davinci"]
+    skills: ["Git","Github","Pycharm" ,"MySQL", "Excel", "Adobe Photoshop", "Davinci"]
   },
   {
     name: "Soft Skills",

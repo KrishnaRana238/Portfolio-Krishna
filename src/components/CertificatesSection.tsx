@@ -16,8 +16,17 @@ type Certificate = {
 
 // Sample certificates data - you can add your real certificates here
 const certificates: Certificate[] = [
-  {
+   {
     id: 1,
+    name: "Social Networks",
+    issuer: "NPTEL",
+    date: "April 2025",
+    skills: ["Python", "Numpy", "Random","Matplotlib", "NetworkX"],
+    credentialLink: "https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs65/Course/NPTEL25CS65S14750004704444886.pdf",
+    description: "Comprehensive training on social networks using Python and its libraries."
+  },
+  {
+    id: 2,
     name: "Data Structure And Algorithms",
     issuer: "Udemy",
     date: "August 2024",
@@ -26,7 +35,7 @@ const certificates: Certificate[] = [
     description: "Comprehensive training on data structure and algorithms using C/C++"
   },
   {
-    id: 2,
+    id: 3,
     name: "Google Ai Essentials",
     issuer: "Coursera",
     date: "January 2025",
@@ -35,7 +44,7 @@ const certificates: Certificate[] = [
     description: "Develop strategies to stay up-to-date in the emerging landscape of AI"
   },
   {
-    id: 3,
+    id: 4,
     name: "Supervised Machine Learning: Regression and Classification",
     issuer: "Coursera",
     date: "November 2024",
@@ -44,7 +53,7 @@ const certificates: Certificate[] = [
     description: "Build machine learning models in Python"
   },
   {
-    id: 4,
+    id: 5,
     name: "Data Analysis with Tableau",
     issuer: "Coursera",
     date: "November 2024",
@@ -53,7 +62,7 @@ const certificates: Certificate[] = [
     description: "Perform exploratory data analysis using Tableau and report insights using descriptive statistics and visualizations.."
   },
   {
-    id: 5,
+    id: 6,
     name: "Excel Skills for Business: Essentials",
     issuer: "Coursera",
     date: "May 2024",
@@ -62,7 +71,7 @@ const certificates: Certificate[] = [
     description: "Develop job-relevant skills with hands-on projects"
   },
   {
-    id: 6,
+    id: 7,
     name: "R Programming",
     issuer: "Coursera",
     date: "April 2024",

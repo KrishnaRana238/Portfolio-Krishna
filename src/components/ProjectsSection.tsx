@@ -5,6 +5,8 @@ import Image1 from './images/freelancia.jpg';
  import Image2 from './images/ecommerse.jpg';
 import Image3 from './images/weather.jpg';
 import Image4 from './images/car.jpg';
+import Image5 from './images/chatbot.jpg';
+import Image6 from './images/quiz.jpg';
 
 interface Project {
   id: number;
@@ -19,24 +21,42 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
+    title: "Clang - AI Chatbot",
+    description: "The Enhanced Clang AI Chatbot System is a full-stack AI solution developed using Django REST Framework and Python, integrating capabilities such as NLP processing, grammar correction, mathematical problem solving, and code generation. It features a robust multi-LLM architecture utilizing Cohere, Groq, Mistral, and Together APIs with intelligent fallback mechanisms and asynchronous processing to ensure 99.9% uptime and sub-3 second response times. The system incorporates an advanced NLP pipeline built with SpaCy, NLTK, TextBlob, and SymPy to support real-time sentiment analysis, intent recognition, grammar checking, and symbolic computation. A scalable microservices architecture supports session management via UUIDs, a SQLite-based knowledge base, and RESTful APIs for seamless, real-time conversational AI capabilities.",
+    tags: ["Python", "Django", "RESTful Api","SQLite", "NLP", "AI"],
+    image: { src: Image5, alt: "Freelancia Platform" },
+    githubUrl: "#",
+    liveUrl: "#"
+  },
+  {
+    id: 2,
+    title: "Quizmaster - Online Quiz Platform",
+    description: "Developed a dynamic web application named Quiz Master using Django, Python, SQLite, and RESTful APIs to deliver an interactive quiz experience. The platform supports user authentication, quiz creation, real-time scoring, and result tracking. Backend APIs were tested and documented using Postman to ensure reliable performance and smooth integration. The project demonstrates strong backend development skills, REST API design, and full-stack implementation with efficient data handling through SQLite.",
+    tags: ["Django", "Python", "SQLite","RESTful API", "Postman"],
+    image: { src: Image6, alt: "Freelancia Platform" },
+    githubUrl: "#",
+    liveUrl: "#"
+  },
+  {
+    id: 3,
     title: "Freelancia",
-    description: "A freelancing website with direct login authentication and seamless API integration with MongoDB database. Tested using Postman for reliability.",
+    description: "Developed a responsive freelancing web platform using React and Tailwind CSS, emphasizing modern UI design and an intuitive user experience. Implemented direct login functionality to ensure smooth and secure user authentication. Integrated RESTful APIs to enable efficient communication between the frontend and backend, supporting real-time data interaction. The platform delivers seamless functionality across devices, showcasing strong frontend development and API integration skills.",
     tags: ["React", "Tailwind CSS", "MongoDB", "Postman"],
     image: { src: Image1, alt: "Freelancia Platform" },
     githubUrl: "#",
     liveUrl: "#"
   },
   {
-    id: 2,
+    id: 4,
     title: "Mestore",
-    description: "E-commerce website offering various products with intuitive user interface and responsive design for seamless shopping experience.",
+    description: "Mestore is a feature-rich e-commerce website offering a wide range of products through an intuitive and visually appealing user interface. The platform is built with a fully responsive design, ensuring a seamless and consistent shopping experience across all devices. It includes essential e-commerce functionalities such as product browsing, cart management, and secure checkout, optimized for performance and user engagement. The project highlights strong frontend design principles and user-centered development for modern online retail.",
     tags: ["HTML", "CSS", "JavaScript"],
     image: { src: Image2, alt: "Mestore Interface" }, // Replace with actual image
     githubUrl: "#",
     liveUrl: "#"
   },
   {
-    id: 3,
+    id: 5,
     title: "Weather Prediction Model Comparison",
     description: "Developed weather prediction model using KNN, SVM, Decision Tree, Random Forest, and Naive Bayes. \nConducting data preprocessing and split the dataset into training (70%) and testing (30%) sets. \nImplement and evaluate model using matrices such as accuracy, precision, recall F1-score, and ROC-AUC. ",
     tags: ["R", "Machine Learning"],
@@ -45,7 +65,7 @@ const projects: Project[] = [
     liveUrl: "#"
   },
   {
-    id: 4,
+    id: 6,
     title: "Car and Bike Accident Report Dashboard",
     description: "Developed an interactive dashboard utilizing R libraries such as flex dashboard, knitr, DT, pivot table and ggplot2 for dynamic data visualization of car and bike accidents across the USA. \nThe dashboard allow user to explore trends through graphical representations and offers interactive tables for comprehensive data filtering. \nIt provides actionable insights and strategies based on trends to help reduce accident rates.",
     tags: ["R", "Machine Learning Libraries"],
