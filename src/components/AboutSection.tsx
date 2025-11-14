@@ -36,16 +36,18 @@ const AboutSection = () => {
           </div>
 
           <div className="col-span-1 lg:col-span-3">
-            <h3 className="text-2xl font-bold mb-4">Developer & Graphic Designer</h3>
             <p className="text-cyber-light mb-6">
             
-            I have been dedicated to enhancing my skills and knowledge in various fields since class 10, consistently demonstrating a strong commitment to personal growth and professional development. My goal has been to gain hands-on experience and strengthen my technical skills—particularly in data analysis and programming—while striving to deliver high-quality results that exceed client expectations.
+            I am a motivated and ambitious final-year Computer Science Engineering student with a minor in Data Science at Lovely Professional University. Driven by curiosity and a commitment to continuous learning, I am passionate about data analysis, software development, and building innovative, impactful solutions to real-world problems.
             </p>
             <p className="text-cyber-light mb-6">
-            To achieve this, I pursued multiple internships and freelance opportunities, actively working on projects that required strong problem-solving abilities. I sharpened my proficiency in programming languages such as C++, Java, and Python through regular participation in hackathons and competitive coding on platforms like LeetCode, GeeksforGeeks, and HackerRank. I also expanded my expertise in data analysis by using tools like Excel, R, and Tableau, along with a range of specialized software designed to meet diverse analytical needs.
+            Throughout my academic journey, I have gained hands-on experience in machine learning, full-stack development, backend APIs, data visualization, and cloud-integrated projects. I enjoy transforming raw data into meaningful insights and developing clean, efficient, and scalable software systems.
             </p>
             <p className="text-cyber-light mb-6">
-            I thrive in collaborative environments and am committed to continuous learning. I am eager to contribute my skills to innovative projects that address real-world challenges.
+            I am currently seeking internship and full-time opportunities where I can contribute my skills, grow under experienced mentors, and work on cutting-edge technologies that create meaningful impact.
+            </p>
+            <p className="text-cyber-light mb-6">
+            Beyond academics, I thrive in collaborative environments—working with like-minded peers, exchanging ideas, participating in hackathons, and staying updated with modern tools and industry trends. I am always open to connecting with students, professionals, and tech enthusiasts to learn, innovate, and build solutions that make a difference.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

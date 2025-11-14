@@ -8,6 +8,7 @@ import Image4 from './images/car.jpg';
 import Image5 from './images/chatbot.jpg';
 import Image6 from './images/quiz.jpg';
 
+
 interface Project {
   id: number;
   title: string;

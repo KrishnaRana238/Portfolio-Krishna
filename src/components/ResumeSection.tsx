@@ -1,16 +1,8 @@
 import React from 'react';
 import { FileText, Download, Briefcase, GraduationCap, Award } from 'lucide-react';
-import KrishnaResume from './resume/Krishna-Web.pdf';
+import KrishnaResume from './resume/Krishna_CV.pdf';
 
-const experienceData = [
-  {
-    id: 1,
-    role: "Graphic Designer",
-    company: "Zepp Media",
-    period: "March 2022 - December 2023",
-    description: "Involved in creating social media post, editing videos and designing thumbnails with managing both YouTube and Instagram platforms. Tech: Canva, Adobe Photoshop, Davinci, Capcut"
-  }
-];
+
 
 const trainingData = [
   {
@@ -26,6 +18,15 @@ const trainingData = [
     company: "Coding Block",
     period: "June 2024 - August 2024",
     description: "Developed a sales report for Diwali saree sales, the project involves data cleaning processing, statistical analysis derives insights into sales performance on Jupyter Notebook. Tech: Python, Data Analytics tools"
+  }
+];
+const experienceData = [
+  {
+    id: 1,
+    role: "Data Science Intern",
+    company: "Prodify Infotech",
+    period: "August 2024 - September 2024",
+    description: "Performed data cleaning and analysis on 10,000+ records, improved data quality by 30%, and automated ETL workflows using Python and SQL to reduce manual effort by 40% and enhance data-driven decision-making."
   }
 ];
 
