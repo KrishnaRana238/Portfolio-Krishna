@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+# Krishna Rana - Portfolio
 
-## Project info
+## About Me
 
-**URL**: https://lovable.dev/projects/2e2f5d47-f160-4973-8c69-34c0b74af258
+I am a motivated and ambitious Computer Science student with a minor in Data Science at Lovely Professional University. I have a strong passion for data analysis, software development, and building innovative solutions that tackle real-world challenges.
 
-## How can I edit this code?
+With hands-on experience in machine learning, full-stack development, and data-driven projects, I am actively seeking internship and full-time opportunities where I can apply my skills to create meaningful impact.
 
-There are several ways of editing your application.
+Beyond academics, I enjoy collaborating with like-minded individuals, exchanging ideas, and exploring new technologies. I am always open to connecting with students, professionals, and tech enthusiasts to innovate, learn, and make a difference together.
 
-**Use Lovable**
+## Skills
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2e2f5d47-f160-4973-8c69-34c0b74af258) and start prompting.
+- **Programming Languages**: Python, JavaScript, TypeScript, R
+- **Web Development**: React, Tailwind CSS, Node.js, Django
+- **Data Science & ML**: Machine Learning algorithms (KNN, SVM, Decision Trees), NLP, Data Analysis
+- **Tools & Technologies**: Git, Docker, RESTful APIs, SQLite, MongoDB
+- **Other**: UI/UX Design, Responsive Web Design, API Testing with Postman
 
-Changes made via Lovable will be committed automatically to this repo.
+## Projects
 
-**Use your preferred IDE**
+### Featured Projects
+- **Clang - AI Chatbot**: Full-stack AI solution using Django, Python, and multiple LLM APIs for NLP, grammar correction, and code generation.
+- **Quizmaster - Online Quiz Platform**: Django-based quiz app with user authentication, real-time scoring, and RESTful APIs.
+- **Freelancia**: Responsive freelancing platform built with React and Tailwind CSS, integrated with MongoDB.
+- **Mestore**: E-commerce website with HTML, CSS, JavaScript, featuring product browsing and cart management.
+- **Weather Prediction Model Comparison**: ML project comparing KNN, SVM, Decision Tree, Random Forest, and Naive Bayes using R.
+- **Car and Bike Accident Report Dashboard**: Interactive R dashboard for accident data visualization using flexdashboard and ggplot2.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+For more details, visit the [Projects Section](#projects) in the portfolio.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Education
 
-Follow these steps:
+- **Bachelor of Technology in Computer Science** (Minor in Data Science)  
+  Lovely Professional University  
+  Expected Graduation: [Year]
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Contact
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **LinkedIn**: [Your LinkedIn Profile]
+- **Email**: [Your Email]
+- **GitHub**: [https://github.com/KrishnaRana238](https://github.com/KrishnaRana238)
+- **Portfolio**: [Live Portfolio URL]
 
-# Step 3: Install the necessary dependencies.
-npm i
+Feel free to reach out for collaborations, opportunities, or just to connect!
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## Technologies Used
+
+This portfolio is built with:
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **Build Tool**: Vite
+- **UI Components**: shadcn-ui
+- **Deployment**: [Your Deployment Platform, e.g., Vercel/Netlify]
+
+## Getting Started
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/KrishnaRana238/Portfolio-Krishna.git
+
+# Navigate to the directory
+cd Portfolio-Krishna
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## License
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2e2f5d47-f160-4973-8c69-34c0b74af258) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is open source and available under the [MIT License](LICENSE).
