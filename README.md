@@ -36,10 +36,10 @@ For more details, visit the [Projects Section](#projects) in the portfolio.
 
 ## Contact
 
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Email**: [Your Email]
+- **LinkedIn**: [https://www.linkedin.com/in/krishna-rana-b38265231/](krishna-rana-b38265231/)
+- **Email**: [rana345212@gmail.com](rana345212@gmail.com)
 - **GitHub**: [https://github.com/KrishnaRana238](https://github.com/KrishnaRana238)
-- **Portfolio**: [Live Portfolio URL]
+- **Portfolio**: [https://portforlio-rana.netlify.app/](Krishna_Portfolio)
 
 Feel free to reach out for collaborations, opportunities, or just to connect!
 
